@@ -28,7 +28,27 @@
     display: flex;
    gap: 20px;
 }
+.second-section{
+    text-align: center;
+    
+}
+.secound-text{
+    text-align: center;
+    width: 62%;
+    margin-left: 264px;
+   
+}
 .Secound-images{
 text-align: center;
 width: 100%;
+}
+.secondmenu{
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    gap:30px;
+    justify-content: center;
+}
+.bar {
+   width: 20px;
 }
