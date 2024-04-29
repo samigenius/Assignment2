@@ -1,3 +1,7 @@
+h2,h3,p, h5{
+    padding: 0;
+    margin: 0;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -61,20 +65,98 @@ select{ width: 150px; height: 40px;}
 }
 .third-setion-text > h2{
     text-align: left;
-    font-size: 35px;
+    font-size: 40px;
 }
 .third-setion-text > p, li {
     text-align: left;
-    width: 480px;
+    width: 485px;
     font-size: 20px;
 }
 .third-setion-text >  li{
     margin-top: 10px;
-    margin-left: 8px;
+    margin-left: 10px;
+    
 }
-
 .third-setion-text > button {
     text-align: left;
-    margin-right: 340px;
-    padding: 15px 40px;
+  margin-right: 340px;
+  padding: 20px 48px;
+  background-color: orange;
+  border-radius: 15px;
+  margin-top: 70px;
+  font-size: 18px;
+}
+.third-section-imge {
+    margin-left: 130px;
+}
+.forth-section {
+     margin-top: 40px;
+}
+.forth-section > h3 {
+    text-align: center;
+    font-size: 40px;
+}
+.forth-section > p {
+    text-align: center;
+    width: 600px;
+    margin-left:430px;
+    font-size: 18px;
+    padding: 20px;
+}
+.forth-section-images{
+    text-align: center;
+}
+.forth-section-images > img{
+    padding: 6px;
+}
+.upper-text{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.upper-text > h3{
+    font-size: 40px;
+
+}
+.upper-text > p {
+    font-size: 20px;
+    width: 660px;
+    margin-left: 400px;
+    padding: 20px;
+}
+.fifth-section{
+    display: flex;
+    gap:20px;
+    width: 1615px;
+    padding: 0px 0 0 150px;
+}
+.cart{
+    border: 2px solid salmon;
+    width: 500px;
+    height: 234px;
+    border-radius: 15px;
+    padding-top: 40px;
+    
+}
+.cart > img {
+    width: 61px;
+    height: 60px;
+    margin: 21px 10px 0px 20px;
+}
+.cart > h5{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.cart > p {
+    width: 430px;
+    margin-left: 10px;
+}
+.c-out{
+    margin-top: 15px;
+    margin-left:30%;
+}
+
+.six1 {
+    margin-top: 10px;
+    text-align: center;
 }
