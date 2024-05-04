@@ -219,8 +219,33 @@ select{ width: 150px; height: 40px;}
     border-radius: 10px;
 }
 .see-all{
-
     text-align: center;
     font-size: 30px;
     margin: 50px;
+    border: 2px solid orange;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+}
+.see{
+    text-align: center;
+}
+.sixth-section {
+    display: flex;
+}
+.six-text{
+    width: 600px;
+    margin-left: 100px;
+}
+.six-text>h3{
+    font-size: 42px;
+    font-weight: 800;
+    width: 450px;
+} 
+.six-text>p{
+    font-size: 18px;
+    padding: 25px;
+}
+.six-text > ul >li {
+    padding: 5px;
 }
